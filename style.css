@@ -1,0 +1,122 @@
+body [
+    text-align: center;
+]
+.Project {
+  float: left;
+  width: 24%;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin:4px;
+}
+.Project img{
+    width:100%;
+    height:auto;
+    border-radius: 15px;
+}
+#outer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu {
+    font-family: fantasy;
+    right: 10px;
+    z-index: 10;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    vertical-align: middle;
+    top: 0px;
+    width: 100%;
+}
+.links a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.links a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  margin-top: 30px;
+}
+#content{
+    margin-top: 80px;
+    position: absolute;
+    text-align: center;
+}
+#inner{
+    
+    width:70%;
+}
+.links {
+    float: left;
+    color: darkblue; 
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9p;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
+#Home {
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+    color: aquamarine;
+}
+h2 {
+    font-size: 90px;
+    color: antiquewhite;
+}
+#About {
+    font-size: 50px;
+    color: forestgreen;
+    text-align: center;
+}
+#Book {
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+h4 {
+    font-size: 100px;
+    color: blueviolet;
+}
+#Work {
+   font-size: 20px;
+   text-align: center;
+}
+#MOM {
+    width: 500px;
+    height: 500px;
+}
+#Contacts {
+    color: aqua;
+    font-size: 50px;
+    text-align: center;
+}
+.email {
+    text-align: center;
+    color: lightblue;
+    font-size: 40px;
+}
+p {
+    font-size: 40px;
+    color: blue;
+}
+#Inspiration {
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
+#gmaps {
+    width: 100%;
+}
